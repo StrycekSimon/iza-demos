@@ -69,5 +69,5 @@ struct MyView: View {
 }
 ```
 
-It is all you need to implement your custom UI component. You just need to fill the implementation in the `body` and you are ready to go. You can find a brief demonstration in [this directory](demo_01/src/04_CustomSwiftUIView/). To follow a clean code standards, the implementation is divided into separate files by individual View implementations. You can start by looking at [this file](demo_01/src/04_CustomSwiftUIView/ContentView.swift).
+It is all you need to implement your custom UI component. You just need to fill the implementation in the `body` and you are ready to go. You can find a brief demonstration in [this directory](src/04_CustomSwiftUIView/). To follow a clean code standards, the implementation is divided into separate files by individual View implementations. You can start by looking at [this file](src/04_CustomSwiftUIView/ContentView.swift).
 
