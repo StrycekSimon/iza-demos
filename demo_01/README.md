@@ -57,4 +57,17 @@ You can find more about how to use them in [this file](src/03_Stacks.swift).
 
 ## Creating custom View
 
-tbd.
+You can build your own UI components by implementing the View protocol. Actuallly, if you went through the materials of previous chapters, we already implemented it several times. You might find this pattern familiar:
+
+```swift
+struct MyView: View {
+    var body: some View {
+        ...
+        // Your content here
+        ...
+    }
+}
+```
+
+It is all you need to implement your custom UI component. You just need to fill the implementation in the `body` and you are ready to go. You can find a brief demonstration in [this directory](demo_01/src/04_CustomSwiftUIView/). To follow a clean code standards, the implementation is divided into separate files by individual View implementations. You can start by looking at [this file](demo_01/src/04_CustomSwiftUIView/ContentView.swift).
+
